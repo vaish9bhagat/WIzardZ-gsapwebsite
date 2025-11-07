@@ -179,11 +179,16 @@ nav h1 i {
 .page2-secondbottam {
   width: 100%;
   padding: 4vw 3.2vw;
+  display: flex;
+  flex-direction: row;
 }
 .page2-secondbottam-left {
   border-radius: 2vw;
   background-color: #f3f3f3;
   padding: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 32vw;
 }
 .page2-secondbottam-left div {
   width: 45%;
@@ -200,6 +205,13 @@ nav h1 i {
   font-size: 1.5vw;
   padding: 1vw;
   margin-top: 2vw;
+}
+.page2-secondbottam-right {
+  align-self: center;
+  width: 50%;
+}
+.page2-secondbottam-right img {
+  width: 50%;
 }
 .page2-bottam {
   width: 100%;
