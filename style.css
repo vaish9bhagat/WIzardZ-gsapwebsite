@@ -1,0 +1,273 @@
+@font-face {
+  font-family: china;
+  src: url(./3856NeueMachina.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: china;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+.page1 {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  padding: 2.3vw 3.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-size: 2.3vw;
+  font-weight: bold;
+}
+nav h1 i {
+  display: inline-block;
+}
+.navleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+.navleft h4 {
+  font-size: 1.5vw;
+}
+.navleft button {
+  padding: 0.8vw 1.6vw;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.page1-center {
+  overflow-x: hidden;
+  width: 100%;
+  height: 66%;
+  padding: 1.3vw 3.2vw;
+  display: flex;
+}
+.page1-center-right {
+  width: 42%;
+}
+.page1-center-right h1 {
+  font-size: 3.3vw;
+  line-height: 1.2;
+}
+.page1-center-right p {
+  width: 95%;
+  font-size: 1.3vw;
+  margin-top: 2vw;
+}
+.page1-center-right button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  padding: 1vw;
+}
+.page1-center-left {
+  position: relative;
+  width: 58%;
+}
+.page1-center-left img {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.page1-bottam {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3.5vw;
+}
+.page1-bottam img {
+  width: 100px;
+}
+.page2 {
+  overflow-x: hidden;
+}
+.page2-top {
+  width: 100%;
+  padding: 2.2vw 3.2vw;
+  margin-top: 6vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4vw;
+}
+.page2-top h1 {
+  font-size: 2.7vw;
+  background-color: greenyellow;
+  padding: 2px 5px;
+}
+.page2-top p {
+  width: 52%;
+}
+.page2-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5vw 3.2vw;
+  margin-top: 3vw;
+  gap: 3vw;
+  flex-wrap: wrap;
+}
+.page2-center .divelem {
+  flex-shrink: 0;
+  border: 2px solid black;
+  width: 48%;
+  padding: 2vw;
+  border-radius: 2.2vw;
+  margin-top: 1vw;
+  box-shadow: 0px 18px 0px black;
+}
+.divelem-left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+.divelem-left h1 {
+  background-color: greenyellow;
+  display: inline;
+  border-radius: 5px;
+  font-size: 2.5vw;
+}
+.divelem-left div {
+  font-size: 1.5vw;
+  display: flex;
+  gap: 1.5vw;
+}
+.divelem-left div i {
+  font-size: 2vw;
+  color: greenyellow;
+  background-color: black;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+.white {
+  background-color: #ffffff;
+}
+.black {
+  background-color: black;
+}
+.black .divelem-left div i {
+  background-color: white;
+  color: black;
+}
+.black .divelem-left div {
+  color: white;
+}
+.black .divelem-left h1 {
+  background-color: white;
+}
+.page2-secondbottam {
+  width: 100%;
+  padding: 4vw 3.2vw;
+}
+.page2-secondbottam-left {
+  border-radius: 2vw;
+  background-color: #f3f3f3;
+  padding: 1.5vw;
+}
+.page2-secondbottam-left div {
+  width: 45%;
+}
+.page2-secondbottam-left div p {
+  margin-top: 2vw;
+}
+
+.page2-secondbottam-left div button {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.5vw;
+  padding: 1vw;
+  margin-top: 2vw;
+}
+.page2-bottam {
+  width: 100%;
+  padding: 1.5vw 3.2vw;
+  display: flex;
+  gap: 4vw;
+}
+.page2-bottam h1 {
+  font-size: 2.7vw;
+  background-color: greenyellow;
+  padding: 2px 5px;
+}
+.page2-bottam p {
+  width: 45%;
+}
+.bottam {
+  width: 100%;
+  border-radius: 1.4vw;
+  padding: 1.7vw 3.2vw;
+  margin-top: 3vw;
+}
+.bottam div {
+  width: 100%;
+
+  margin-top: 2vw;
+  border-radius: 2vw;
+  display: flex;
+  gap: 1.5vw;
+  padding: 1vw;
+}
+.bottamdiv {
+  padding: 1.5vw;
+  display: flex;
+  background-color: #1f1f1f;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottamdiv p {
+  color: white;
+}
+.bottamdiv div {
+  color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.bottamdiv div i {
+  font-size: 2vw;
+}
+.line {
+  width: 2px;
+  padding: 3px;
+  background-color: white;
+}
+
+.page3-bottam {
+  width: 100%;
+  padding: 1.5vw 3.2vw;
+  display: flex;
+  gap: 4vw;
+}
+.page3-bottam h1 {
+  font-size: 2.7vw;
+  background-color: greenyellow;
+  padding: 2px 5px;
+}
+.page3-bottam p {
+  width: 45%;
+}
